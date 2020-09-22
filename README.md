@@ -20,7 +20,7 @@ Type ".help" for more information.
 # Clone this repo on your machine
 Make use of the GitHub Client (https://desktop.github.com/)
 
-The url voor this repo is https://github.com/flagis/ogcapi_s2
+The url voor this repo is https://github.com/LudoWhereat/ogc-api-features
 
 We will refer to these documents often in this session, so keep them open in a your browser Tabs
 

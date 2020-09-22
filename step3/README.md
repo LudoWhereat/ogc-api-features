@@ -2,7 +2,6 @@
 
 Express routes
 
-Ga ook nu weer in de step3 directory staan via de command prompt. express moet opnieuw geinstalleerd worden:
 ```
 npm install express --save
 ```
@@ -43,31 +42,31 @@ node index.js
 Example app listening at http://localhost:80
 ```
 
-## 2: Routes testen (HTTP commando GET)
+## 2: Testing routes (HTTP commando GET)
 
-In je browser: http://localhost
+In your browser: http://localhost
 
-Op het scherm komt:
+On your screen:
 >`Hello World!`
 
-In je browser: http://localhost/about
+In your browser: http://localhost/about
 
-Op het scherm komt: 
+On your screen: 
 > `about!`
 
-## 3: Routes testen (Andere HTTP commando's)
+## 3: Testing routes (Andere HTTP commando's)
 
-Een GET command is makkelijk te versturen via de browser, maar de andere niet - daarom gebruiken we een tool om http commandos te sturen naar onze server.
-Installeer Postman https://www.postman.com/ (download, installeer, registreren is optioneel) (vele andere gelijkaardige tools zijn even goed, zoals Insomnia)
+The GET command can easily be send using a browser, but not the others - that is why we will use a tool to send the other HTTP commands.
+Install Postman https://www.postman.com/ (or any other of your liking)
 
-In Postman: neem het `POST` command in de dropdown, in het url vakje: `http://localhost/`
+In Postman: select the `POST` command in the dropdown, in the url textbox: `http://localhost/`
 
-In het resultaten window komnt nu: 
+In the results window: 
 > `Got a POST request`
 
-Test ook `PUT` en `DELETE` voor `http://localhost/user`
+Also test `PUT` and `DELETE` for `http://localhost/user`
 
-Onze focus gaat vooral naar `'GET` in de eerste 10 lessen
+Our focus will go to `'GET` for the next 10 lessons
 
-# Klaar voor de volgende stap
-https://github.com/flagis/ogcapi_s2/blob/master/step4/README.md
+# Ready for the next step
+https://github.com/LudoWhereat/ogc-api-features/blob/master/step4/README.md

@@ -47,7 +47,7 @@ node index.js
 
 `Example app listening at http://localhost:80`
 
-In je browser of via PostMan
+In your browser of via PostMan
 
 Landing Page:
 - http://localhost/kontich/collections/groendienst
@@ -101,6 +101,6 @@ self = [Metadata about the feature collections](http://localhost/kontich/collect
 JSON output
 Get raw [JSON](http://localhost/kontich/collections?f=json)
 
-## Klaar voor de volgende stap
-https://github.com/flagis/ogcapi_s2/blob/master/step10/README.md
+## Ready for the next step
+https://github.com/LudoWhereat/ogc-api-features/blob/master/step10/README.md
 

@@ -47,7 +47,7 @@ router.get('/', function (req, res) {
 })
 ```
 
-De javascript module [landingPage](https://github.com/flagis/ogcapi_s2/tree/master/step7/landingPage.js) maakt het JSON of HTML antwoord.
+De javascript module [landingPage](https://github.com/LudoWhereat/ogc-api-features/tree/master/step7/landingPage.js) maakt het JSON of HTML antwoord.
 
 
 ## Testen:
@@ -57,7 +57,7 @@ node index.js
 
 `Example app listening at http://localhost:80`
 
-In je browser of via PostMan
+In your browser of via PostMan
 
 Landing Page:
 - http://localhost/kontich
@@ -73,5 +73,5 @@ http://localhost/kontich?f=html
 ## Test Content Negociation in PostMan of Insomnia:
 
 
-## Klaar voor de volgende stap
-https://github.com/flagis/ogcapi_s2/blob/master/step8/README.md
+## Ready for the next step
+https://github.com/LudoWhereat/ogc-api-features/blob/master/step8/README.md

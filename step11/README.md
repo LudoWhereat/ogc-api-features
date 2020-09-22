@@ -45,13 +45,13 @@ node index.js
 
 `Example app listening at http://localhost:80`
 
-In je browser of via PostMan
+In your browser of via PostMan
 
 Landing Page:
 - http://localhost/kontich/collections/groendienst/items
 - http://localhost/kontich/collections/groendienst/items?f=json
 - http://localhost/kontich/collections/groendienst/items?f=html
 
-## Klaar voor de volgende stap
-https://github.com/flagis/ogcapi_s2/blob/master/step12/README.md
+## Ready for the next step
+https://github.com/LudoWhereat/ogc-api-features/blob/master/step12/README.md
 

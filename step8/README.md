@@ -55,7 +55,7 @@ node index.js
 
 `Example app listening at http://localhost:80`
 
-In je browser of via PostMan
+In your browser of via PostMan
 
 Landing Page:
 - http://localhost/kontich/collections
@@ -157,6 +157,6 @@ Name | Description
 [September kermis](http://localhost/kontich/collections/septemberkermis/items)|Septemberkermis uit de Informatie Vlaanderen API voor de gemeente Kontich
 [Groendienst](http://localhost/kontich/collections/Groendienst/items)|Groendienst uit de Informatie Vlaanderen API voor de gemeente Kontich
 
-## Klaar voor de volgende stap
-https://github.com/flagis/ogcapi_s2/blob/master/step9/README.md
+## Ready for the next step
+https://github.com/LudoWhereat/ogc-api-features/blob/master/step9/README.md
 

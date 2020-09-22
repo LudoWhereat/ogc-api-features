@@ -63,7 +63,7 @@ node index.js
 
 `Example app listening at http://localhost:80`
 
-In je browser of via PostMan
+In your browser of via PostMan
 
 Landing Page:
 http://localhost/kontich
@@ -86,5 +86,5 @@ In les 7 gaan we de Landing Page responses ook voor de mens leesbaar maken!
 ## Merk op
 /api en /api.html zijn toegevoegd, maar hoeft niet volgens de spec. Beide documenten kunnen ook elders 'leven'
 
-## Klaar voor de volgende stap
-https://github.com/flagis/ogcapi_s2/blob/master/step7/README.md
+## Ready for the next step
+https://github.com/LudoWhereat/ogc-api-features/blob/master/step7/README.md

@@ -32,7 +32,7 @@ node index.js
 
 `Example app listening at http://localhost:80`
 
-In je browser of via PostMan
+In your browser of via PostMan
 
 Landing Page:
 - http://localhost/kontich/collections/groendienst/items

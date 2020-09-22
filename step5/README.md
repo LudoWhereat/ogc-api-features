@@ -70,5 +70,5 @@ http://localhost/kontich/
 
 > `Kontich landing page`
 
-## Klaar voor de volgende stap
-https://github.com/flagis/ogcapi_s2/blob/master/step6/README.md
+## Ready for the next step
+https://github.com/LudoWhereat/ogc-api-features/blob/master/step6/README.md

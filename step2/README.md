@@ -1,20 +1,20 @@
 # Stap 2
 
-Installatie van ExpressJs, het gaat ons leven makkelijker maken om om te gaan met paden in http
-De website van ExpressJS is https://expressjs.com/. Je hoeft er niet naartoe te gaan, we installeren express via de node package manager `npm`
+Install ExpressJs, it will out lives easier with the http path
+The website of ExpressJS is at https://expressjs.com/. You don't have to go there, we will install express via the node package manager `npm`
 
 > Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 
 
 ## Installer ExpressJS
 
-Ga naar de directory van step2, en met een command prompt, typ:
+Go to the directory of step2, and on the command prompt, typ:
 
 ```
 npm install express --save
 ```
 
-Na de installatie zie je:
+After the install:
 
 ```
 ...
@@ -25,28 +25,28 @@ found 0 vulnerabilities
 
 ## Start NodeJS (met ExpressJS)
 
-ExpressJS wordt gekort tot Express, net als NodeJS verkort wordt tot Node
+ExpressJS was shortened to Express, just like NodeJS was shortened to Node
 
 ```
 node index.js
 ```
-Op je scherm:
+On your screen:
 ```
 Example app listening at http://localhost:80
 ```
 
-## Testen in een browser:
+## Test in a browser:
 http://localhost
 
 > `Hello World!`
 
-Echter, elk ander pad werkt nu niet meer
+Now this path will no longer work
 http://localhost/kontich
 
-geeft:
+you get:
 > `Cannot GET /kontich`
 
-en dat is prima (voor het moment)
+and that is fine (for the moment)
 
-## Klaar voor de volgende stap
-https://github.com/flagis/ogcapi_s2/blob/master/step3/README.md
+## Ready for the next step
+https://github.com/LudoWhereat/ogc-api-features/blob/master/step3/README.md
