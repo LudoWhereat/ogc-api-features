@@ -1,22 +1,22 @@
 # Stap 1
 
-Na de installatie van NodeJS en het clonen van deze Master branch, leren we hoe node te starten met een basic script.
-Het basic script zet een webserver op, die luistert naar poort 80 en antwoord met `Hello World!`
+After the install NodeJS and clonen of the Master branch, lets start node with a basic script.
+The basic script starts a webserver, listening on port 80 and replies with `Hello World!`
 
 ## 1: open command prompt
-Met een command prompt, ga naar de directory waar je de repo hebt neergezet
+With a command prompt, go to the directory where you put the repo
 
 
-## 2: start een basic node script
+## 2: start the basic node script
 ```
 node index.js
 ```
 
-## 3: open een browser om te testen of alles werkt:
+## 3: open a browser to test and see if all works:
 http://localhost
 
-Het browser window toont nu: 
+The browser now shows: 
 > `Hello World!`
 
-## Klaar voor de volgende stap
-https://github.com/flagis/ogcapi_s2/blob/master/step2/README.md
+## Ready for a next step
+https://github.com/LudoWhereat/ogc-api-features/blob/master/step2/README.md
