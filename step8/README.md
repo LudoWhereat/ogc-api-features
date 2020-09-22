@@ -1,4 +1,4 @@
-# Wat heeft Kontich te bieden qua geo bestanden?
+# What files does Kontich serve?
 
 - Frituren
 - Groepsopvang Babys En Peuters 
@@ -6,12 +6,12 @@
 - Sport lokaal 
 - Water
 
-(Met dank aan Michel Stuyts, GIS-coördinator. Zie ook op https://michelstuyts.be/ - https://stuyts.xyz)
+(A big thank you to Michel Stuyts, GIS-coördinator. See also https://michelstuyts.be/ - https://stuyts.xyz)
 
 ## Stap 1:
-Zoals altijd, ga naar de step8 directory met je command prompt, en installeer express als het de eerste keer dat je node gaat opstarten in deze directory. `npm install express --save` alsook swig: `npm i swig-templates`
+Install all softwareL `npm install express --save` include swig: `npm i swig-templates`
 
-## Lezen van de Datasets
+## Read hthe Datasets
 
 ```javascript
 var path = require('path');

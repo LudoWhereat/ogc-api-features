@@ -1,11 +1,11 @@
 # Landing Page in JSON & HTML
 
-De Landing Page in Step6 was enkel beschikbaar in JSON, in deze les maken we die ook beschikbaar in HTML
+The Landing Page in Step6 was only availble in JSON, lets make it also availble in HTML
 
 ## Stap 1:
-Zoals altijd, ga naar de step7 directory met je command prompt, en installeer express als het de eerste keer dat je node gaat opstarten in deze directory. `npm install express --save`
+As always, go to the step7 directory with the command prompt, and install express als het de eerste keer dat je node gaat opstarten in deze directory. `npm install express --save`
 
-We gaan swig-templates gebruiken om de html landingPage te maken, dus : `npm i swig-templates`
+We will use swig-templates to serve the html : `npm i swig-templates`
 
 ## Code voor `/` (Landing Page)
 
