@@ -1,0 +1,13 @@
+- var json= content
+
+doctype html
+html(lang='en')
+ head
+   title Metadata about the feature collection      
+ body
+   h1 Metadata about the feature collection
+
+   h2 #{json.id}
+   h3 Links for the collection
+   p items = 
+     a(href= json.links[0].href ) #{json.id}

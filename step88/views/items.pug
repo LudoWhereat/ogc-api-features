@@ -1,0 +1,28 @@
+- var json= content
+
+doctype html
+html(lang='en')
+ head
+   title Metadata about the feature collections
+   link(rel='stylesheet' href='https://unpkg.com/leaflet@1.6.0/dist/leaflet.css')
+   script(src='https://unpkg.com/leaflet@1.6.0/dist/leaflet.js')
+ 
+ body
+  h1 Data from collection 
+   h2 Links
+    p self = 
+      a(href= json.links[0].href) This document
+    if json.links[2]
+      p next = 
+        a(href= json.links[2].href) Next results
+   h2 Features
+   #map(style='width: 600px; height: 400px; position: relative;')
+   script.
+    var map = L.map("map").setView([51.1352386, 4.4450065], 13);
+    L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+    var features = !{JSON.stringify(json.features)}
+    L.geoJSON(features).addTo(map);
+   h2 JSON Output
+    p Get raw 
+      a(href= json.links[1].href) JSON
+        pre !{JSON.stringify(json.features, null, 2)}
