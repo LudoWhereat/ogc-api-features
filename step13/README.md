@@ -6,7 +6,7 @@
 - Sport lokaal 
 - Water
 
-(Met dank aan Michel Stuyts, GIS-coördinator. Zie ook op https://michelstuyts.be/ - https://stuyts.xyz)
+(A big thank you to Michel Stuyts, GIS-coördinator. See also https://michelstuyts.be/ - https://stuyts.xyz)
 
 ## Stap 1:
 Install packages. `npm install express --save`, alsook swig: `npm i swig-templates`

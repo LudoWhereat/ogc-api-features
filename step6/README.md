@@ -1,8 +1,6 @@
 # Stap Landing Page en Conformance invullen
 
-In deze oefening gaan we de Landing page en Conformance invullen.
-We gaan dit 'hardcoded'doen, zonder gebruik te maken van javascript modules, zodat we goed zien wat we maken (later kunnen we dit verder abstraheren). Alle antwoorden zijn in JSON.
-
+Adding a Landing page and Conformance.
 
 ## Stap 1:
 Install packages. `npm install express --save`
@@ -72,19 +70,15 @@ Resultaat:
 
 > `{"title":"Kontich","description":"Access to data about buildings in the city of Kontich via a Web API that conforms to the OGC API Features specification.","links":[{"href":"http://localhost/kontich/","rel":"self","type":"application/json","title":"this document"},{"href":"http://localhost/kontich/api","rel":"service-desc","type":"application/vnd.oai.openapi+json;version=3.0","title":"the API definition"},{"href":"http://localhost/kontich/api.html","rel":"service-doc","type":"text/html","title":"the API documentation"},{"href":"http://localhost/kontich/conformance","rel":"conformance","type":"application/json","title":"OGC API conformance classes implemented by this server"},{"href":"http://localhost/kontich/collections","rel":"data","type":"application/json","title":"Information about the feature collections"}]}`
 
-Best leesbaar voor een computer, iets minder voor een mens...
+OK for a computer, not so much for humans...
 
 Conformance:
 http://localhost/kontich/conformance
 
 > `{"conformsTo":["http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/core","http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/oas30","http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/html","http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/geojson"]}`
 
-Hetzelfde voor Conformanece, best leesbaar voor een computer, iets minder voor een mens. Maar dat hoeft ook niet, de Conformance references zijn enkel voor de computer bedoeld.
-
-In les 7 gaan we de Landing Page responses ook voor de mens leesbaar maken!
-
 ## Merk op
-/api en /api.html zijn toegevoegd, maar hoeft niet volgens de spec. Beide documenten kunnen ook elders 'leven'
+/api en /api.html are added
 
 ## Ready for the next step
 https://github.com/LudoWhereat/ogc-api-features/blob/master/step7/README.md
