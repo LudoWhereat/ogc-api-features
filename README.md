@@ -1,4 +1,4 @@
-#Setup
+# Setup
 
 ## Install  NodeJS
 Go to https://nodejs.org/en/ and install the LTS
@@ -16,7 +16,6 @@ Welcome to Node.js v12.18.1.
 Type ".help" for more information.
 >
 ```
-
 
 # Clone this repo on your machine
 Make use of the GitHub Client (https://desktop.github.com/)
