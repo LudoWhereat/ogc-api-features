@@ -1,13 +1,12 @@
 # Stap 5
 
-We gaan een OGC API Features service maken voor Kontich! Joepie
-Het is te zeggen, we gaan de stubs opzetten voor de OGC API Feature service en ze even in detail gaan bekijken (dit kwam al aan bod in sessie 1 van deze FLAGIS academische sessie)
+Making a service for Bart's municipality
 
-## 1 Voorbereiding:
-Eerst even Express installeren (om de repo zo klein mogelijk te houden, zit `express` er niet bij en moet je het installeren `npm install express --save` bij de eerste keer dat je de code runt in de directory. Eenmaal het er staat, ben je OK)
+## 1 Prepare:
+Adding Express `npm install express --save`
 
 
-## 2 Eerste voorzichtige stapjes
+## 2 First steps
 ```javascript
 var express = require('express')
 var router = express.Router()
@@ -64,7 +63,7 @@ Laten we eens in de spec kijken wat we hier mee aan moeten:
 - [Feature collection](https://docs.opengeospatial.org/is/17-069r3/17-069r3.html#_collection_)
 - [Feature](http://docs.opengeospatial.org/is/17-069r3/17-069r3.html#_items_)
 
-## Testen
+## Test
 
 http://localhost/kontich/
 

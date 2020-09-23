@@ -1,4 +1,4 @@
-# Wat heeft Kontich te bieden qua geo bestanden? (Cont)
+# What files does Kontich serve?
 
 - Frituren
 - Groepsopvang Babys En Peuters 

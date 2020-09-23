@@ -1,4 +1,4 @@
-# Stap 4
+# Stap 4 Middleware
 
 Adding a middleware `app.use`.
 
